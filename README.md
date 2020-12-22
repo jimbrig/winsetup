@@ -2,6 +2,8 @@
 
 This repository contains various scripts, installations, configurations, checklists, processes, and notes regarding settings up and provisioning a new Windows 10 machine optimized for development work.
 
+Recommended Reading: <https://docs.microsoft.com/en-us/windows/dev-environment/overview>
+
 ## First Steps
 
 Initially, you will need to walkthrough the steps to install the Windows OS onto your machine and set certain settings such as Wifi, Privacy, and OneDrive. I will leave these out of the context of this document but would recommend disabling and reviewing the privacy settings. It is also common to initially utilize an offline user account instead of a linked microsoft account to avoid linking your windows account and pre-existing settings/onedrive.
@@ -13,6 +15,79 @@ Initially, you will need to walkthrough the steps to install the Windows OS onto
 3. Initialize Windows Insider Program, Dev Channel
 4. Re-run windows updates, restarting when necessary.
 5. Open Windows Store and update all necessary apps to latest versions 
+
+### Install Latest Microsoft Developer Open Source Toolkit
+
+Microsoft has provided some amazing new open-source developer tools which we will install via `winget` the new Microsoft package manager: 
+
+In order to ease the process of implementing all of our commands let's improve our terminal and shell by installing Microsoft's open-source versions of [Powershell](https://github.com/PowerShell) and [Windows Terminal](https://github.com/microsoft/terminal).
+
+```powershell
+winget install Microsoft.Powershell-Preview
+winget install Microsoft.WindowsTerminalPreview
+winget install Microsoft.PowerToys
+```
+
+Full list of core-developer tools from windows:
+
+- Windows Package Manager `winget`
+- Powershell Core (Preview)
+- Windows Terminal (Preview)
+- PowerToys (Preview)
+- Visual Studio Code
+- .NET/Visual Studio/NuGet
+- Azure Tools and Azure CLI
+
+Other Essentials:
+
+- Git (for Windows) + LFS + Crypt + Secret
+- Docker Desktop (Beta)
+- WSL + Ubuntu
+- Python
+- Node.js
+- R, RTools, RStudio
+- GitKraken
+- Github-CLI
+- GCloud SDK
+
+Optional Utilities:
+
+- SysEssentials 
+- Autoruns
+- ProcessExplorer
+
+### Debloat Pre-Installed Crapware
+
+Run the powershell script [uninstall-bloatware.ps1](./uninstall-bloatware.ps1) to remove the following:
+
+- Bing Weather
+- Bing News
+- Bing Sports
+- Candy Crush Saga
+- Candy Crush Friends
+- Bubble Witch 3 Saga
+- Microsoft Solitare Collection
+- Mahjong
+- LinkedIn For Windows
+- Your Phone
+- Alarms And Clocks
+- Windows Mail
+- OfficeHub
+- Get Started
+- Groove Music
+- Maps
+- Netflix
+- Deezer music
+
+### Adjust Settings and Personalization
+
+- Change display settings for external monitors
+- Change desktop background, theme, cursor, colors, etc.
+- Update explorer.exe default settings:
+
+```powershell
+
+```
 
 ### Install Package Manager(s)
 
