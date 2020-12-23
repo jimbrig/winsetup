@@ -14,22 +14,22 @@ choco config
 choco feature list
 
 # set global confirmation
-choco config set allowGlobalConfirmation true
+choco feature enable -n allowGlobalConfirmation
 
 # set cache location
 choco config set cacheLocation $env:TEMP
 
 # logEnvironmentValues = true
-choco config set logEnvironmentValues true
+choco feature enable -n logEnvironmentValues
 
 # virus checking
-choco config set virusCheck true
+choco feature enable -n virusCheck
 
 # upgrade args
-choco config set useRememberedArgumentsForUpgrades true
+choco feature enable -n useRememberedArgumentsForUpgrades
 
 # cleanup info on uninstall
-choco config set removePackageInformationOnUninstall true
+choco feature enable -n removePackageInformationOnUninstall
 
 # skip non-existant pkgs
-choco config set skipPackageUpgradesWhenNotInstalled true
+choco feature enable -n skipPackageUpgradesWhenNotInstalled
