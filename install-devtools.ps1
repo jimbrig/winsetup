@@ -14,4 +14,4 @@ winget install gitkraken
 winget install gpg4win
 
 # choco installs
-cinst uninstalltool choco-cleaner 
+cinst uninstalltool choco-cleaner lepton 
