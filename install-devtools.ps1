@@ -1,3 +1,7 @@
+# configure winget
+# open/create new settings file
+winget settings
+
 # winget installs: ref: https://github.com/microsoft/winget-cli | https://github.com/microsoft/winget-pkgs
 winget install Microsoft.Powershell-Preview
 winget install Microsoft.WindowsTerminalPreview
