@@ -18,6 +18,7 @@ winget install gitkraken
 winget install gpg4win
 winget install Pichon
 winget install AdrianAllard.FileConverter
+winget install Google.DriveFileStream
 
 # choco installs
 cinst uninstalltool choco-cleaner lepton 
