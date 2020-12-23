@@ -34,7 +34,7 @@ wsl --install
 
 which will enable Virtual Machine Platform and Download latest WSL Kernel.
 
-**Restart**
+- **Restart Machine**
 
 Some minor WSL setup:
 
