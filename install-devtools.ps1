@@ -10,6 +10,7 @@ winget install GitHub.cli
 winget install R
 winget install RStudio
 winget install rtools
+winget install gitkraken
 
 # choco installs
 cinst uninstalltool choco-cleaner 
