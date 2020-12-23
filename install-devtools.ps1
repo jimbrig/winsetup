@@ -16,6 +16,7 @@ winget install RStudio
 winget install rtools
 winget install gitkraken
 winget install gpg4win
+winget install Pichon
 
 # choco installs
 cinst uninstalltool choco-cleaner lepton 
