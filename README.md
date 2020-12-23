@@ -86,7 +86,7 @@ Run the powershell script [uninstall-bloatware.ps1](./uninstall-bloatware.ps1) t
 - Update explorer.exe default settings:
 
 ```powershell
-
+<Find PS commands for this or Boxstarter>
 ```
 
 ### Install Package Manager(s)
@@ -152,9 +152,99 @@ winget install RevoUninstaller
 winget install Bulk Crap Uninstaller
 ```
 
-for geek, I use Chocolatey to install:
+***
 
-to install chocolatey:
+## Checklist
+
+Currently primary devkit is:
+
+## Package Managers
+
+- [ ] winget-cli
+- [ ] chocolatey
+- [ ] pip (Python)
+- [ ] npm (Node)
+- [ ] Powershell Modules* (do later when setting up PS Profiles)
+- [ ] NuGet/Visual Studio
+- [ ] R Packages (CRAN & `pak`) -- DRAT?
+
+*Optional*
+- [ ] Ninite (online)
+- [ ] scoop (optional)
+- [ ] boxstarter (optional)
+
+## Shells/Terminals/Emulators
+
+- [ ] powershell core 7 (preview)
+- [ ] windows terminal (preview)
+- [ ] bash (WSL2 & Ubuntu Distro)
+- [ ] Git-Bash (Git for Windows)
+- [ ] RTerm
+- [ ] RTools
+- [ ] MySys2
+- [ ] Cygwin
+- [ ] Yori
+- [ ] GnuPg
+
+## IDEs, GUIs, and Text Editors
+
+- [ ] VScode
+- [ ] RStudio
+- [ ] Typora
+- [ ] GitKraken
+- [ ] Notepad (Store Version)
+- [ ] (optional) Notepads/Quickpad (Store)
+
+## Essential Tools
+
+- [ ] Git + Extras (Crypt, Secret, LFS, etc.)
+- [ ] SSH + OpenSSH Feature
+- [ ] Hyper-V + Virtual Drive Features
+- [ ] WSL2 + Ubuntu Distro + Shell
+- [ ] GH-CLI
+- [ ] GnuPg
+- [ ] RTools
+- [ ] Docker (via *Docker Desktop Beta*)
+- [ ] GCloud SDK
+- [ ] minikube / kubectl
+- [ ] Azure CLI
+
+## Utilities
+
+- [ ] powertoys
+- [ ] QTTabBar
+- [ ] Winaero Tweaker
+- [ ] Rapid Environment Editor
+- [ ] Link Shell Extension
+- [ ] **A dotfiles manager**
+- [ ] Teracopy/CopySoftwareTool?
+- [ ] 7Zip
+- [ ] File Converter
+- [ ] wt-contextmenu
+- [ ] contextmenutuner
+- [ ] WinX tuner
+
+## Security
+
+- AVG
+- MalwareBytes
+- Norton
+- Windows
+
+## Languages/Support
+
+- [ ] R
+- [ ] Python
+- [ ] Node
+- [ ] Ruby
+- [ ] Java
+- [ ] SQL
+- [ ] Javascript, HTML, CSS
+
+## Linux
+
+- [ ] WSL2
+- [ ] Ubuntu
 
 
 
