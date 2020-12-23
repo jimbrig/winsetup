@@ -17,6 +17,7 @@ winget install rtools
 winget install gitkraken
 winget install gpg4win
 winget install Pichon
+winget install AdrianAllard.FileConverter
 
 # choco installs
 cinst uninstalltool choco-cleaner lepton 
