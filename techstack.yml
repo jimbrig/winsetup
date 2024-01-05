@@ -1,7 +1,8 @@
 repo_name: jimbrig/winsetup
 report_id: 0d647658ebcf74ff7e23d5c9dd3feebe
+version: 0.1
 repo_type: Public
-timestamp: '2023-12-07T20:28:21+00:00'
+timestamp: '2024-01-05T08:28:02+00:00'
 requested_by: jimbrig
 provider: github
 branch: main
@@ -15,6 +16,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/jimbrig/winsetup
   detection_source: Repo Metadata
 - name: PowerShell
   description: A task automation and configuration management framework
@@ -24,4 +26,5 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source_url: https://github.com/jimbrig/winsetup
   detection_source: Repo Metadata
